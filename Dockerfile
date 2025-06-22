@@ -10,6 +10,6 @@ COPY goserver /bin/goserver
 # Set PORT
 ENV PORT=8991
 
-# execute the 'echo "hello world"'
-# command when the container runs
+# execute the 'goserver' file
+# when the container runs
 CMD ["/bin/goserver"]
